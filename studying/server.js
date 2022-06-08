@@ -1,13 +1,12 @@
-import express from "express";
-import bodyParser from 'body-parser';
-import cors from 'cors';
+const express = require ("express");
+const bodyParser = require ('body-parser');
+const cors = require ('cors');
 
 const app = express()
+const jsonParser = express.json();
+const {router} = require ('./router.js');
 
-import {router} from './router.js';
-
-
-const PORT = 3000;
+const PORT = 4000;
 
 app.use(bodyParser.json());
 app.use(cors());
@@ -22,6 +21,33 @@ app.use('*', (req, res, next) => {
     res.status(404).json({ message: `Path ${req.originalUrl} not found!` });
     next();
   });
+
+
+app.post("/getData", jsonParser, (request, response) => {
+    try {
+        console.log("Everything is okey!");
+        console.log((request.body));
+
+        if(request.body) return () => {
+            try {
+                console.log({
+                    status: 200,
+                    body: JSON.stringify(request.body)
+                }.json());
+                response.sendStatus(200) 
+                response.send('Something')        
+            } catch (error) {
+                console.log(error);
+                return false 
+            }
+        };       
+        if(!request.body) return response.send('Something'), response.sendStatus(400);        
+    } catch (error) {
+        console.log(error);
+        
+        return false 
+    }
+});
   
 async function start() { 
     try {
@@ -35,7 +61,7 @@ async function start() {
   
   start();
   
-export default app;
+module.exports = app;
 
 
 /// 1. Создаём сервер npm init -y

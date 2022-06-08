@@ -1,0 +1,72 @@
+1. Развёртывание БД: mySQL: --- https://metanit.com/sql/mysql/ --- руководство по работе с БД
+- sudo apt-get install mysql-server (установка сервера бд)
+- sudo apt-get install mysql-client (установка клиента для работы с сервером)
+- sudo mysql -u root (вход в сервер под рутом)
+- help - вывести все команды: 
+(для управления базой данных)
+
+mySQL - субд - система для управления базами данных
+
+List of all MySQL commands:
+{
+    Note that all text commands must be first on line and end with ';'
+    ?         (\?) Synonym for `help'.
+    clear     (\c) Clear the current input statement.
+    connect   (\r) Reconnect to the server. Optional arguments are db and host.
+    delimiter (\d) Set statement delimiter.
+    edit      (\e) Edit command with $EDITOR.
+    ego       (\G) Send command to mysql server, display result vertically.
+    exit      (\q) Exit mysql. Same as quit.
+    go        (\g) Send command to mysql server.
+    help      (\h) Display this help.
+    nopager   (\n) Disable pager, print to stdout.
+    notee     (\t) Don't write into outfile.
+    pager     (\P) Set PAGER [to_pager]. Print the query results via PAGER.
+    print     (\p) Print current command.
+    prompt    (\R) Change your mysql prompt.
+    quit      (\q) Quit mysql.
+    rehash    (\#) Rebuild completion hash.
+    source    (\.) Execute an SQL script file. Takes a file name as an argument.
+    status    (\s) Get status information from the server.
+    system    (\!) Execute a system shell command.
+    tee       (\T) Set outfile [to_outfile]. Append everything into given outfile.
+    use       (\u) Use another database. Takes database name as argument.
+    charset   (\C) Switch to another charset. Might be needed for processing binlog with multi-byte charsets.
+    warnings  (\W) Show warnings after every statement.
+    nowarning (\w) Don't show warnings after every statement.
+}
+
+
+CREATE USER 'vladislav'@'localhost' IDENTIFIED BY 'vlad2505'; - создать юзера в бд 
+ALTER USER 'vladislav'@'localhost' IDENTIFIED WITH studyingBase BY 'vlad2505'; - дать доступ к бд юзеру через пароль
+ALTER USER 'vladislav'@'localhost' IDENTIFIED WITH mysql_native_password BY 'vlad2505';
+GRANT ALL PRIVILEGES ON studyingBase . * TO 'vladislav'@'localhost'; - дать права на бд
+GRANT {
+    ALL PRIVILEGES - все, кроме GRANT;
+    USAGE PRIVILEGES - никаких привилегий;
+    SELECT - делать выборки из таблиц;
+    INSERT - вставлять данные в таблицу;
+    UPDATE - обновлять данные в таблице;
+    DELETE - удалять данные из таблицы;
+    FILE - разрешает читать файлы на сервере;
+    CREATE - создавать таблицы или базы данных;
+    ALTER - изменять структуру таблиц;
+    INDEX - создавать индексы для таблиц;
+    DROP - удалять таблицы;
+    EVENT - обработка событий;
+    TRIGGER - создание триггеров.
+}
+
+SHOW DATABASES; - показать все существующие базы данных
+CREATE DATABASE name; - создать бд
+USE name; - использовать свою бд
+SHOW TABLES; - посмотреть таблицы в БД
+CREATE TABLE name (
+    name_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(20)
+    ); 
+    - {
+    CREATE TABLE name -создать таблицу в бд 
+    name_id INT AUTO_INCREMENT PRIMARY KEY - тип данных INT, автоиндексирование (1.2.3.4....)
+    name VARCHAR(20)) - имя тип данных строка в 20 символов
+    }
