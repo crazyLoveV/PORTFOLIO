@@ -1,0 +1,49 @@
+1. How to connect web3 and react: 
+   npm install --save-dev react-app-rewired crypto-browserify stream-browserify assert stream-http https-browserify os-browserify url buffer process
+Create config-overrides.js in the root of your project folder with the content:
+
+const webpack = require('webpack');
+
+module.exports = function override(config) {
+    const fallback = config.resolve.fallback || {};
+    Object.assign(fallback, {
+        "crypto": require.resolve("crypto-browserify"),
+        "stream": require.resolve("stream-browserify"),
+        "assert": require.resolve("assert"),
+        "http": require.resolve("stream-http"),
+        "https": require.resolve("https-browserify"),
+        "os": require.resolve("os-browserify"),
+        "url": require.resolve("url")
+    })
+    config.ignoreWarnings = [/Failed to parse source map/];
+    config.resolve.fallback = fallback;
+    config.plugins = (config.plugins || []).concat([
+        new webpack.ProvidePlugin({
+            process: 'process/browser',
+            Buffer: ['buffer', 'Buffer']
+        })
+    ])
+    return config;
+}
+
+Fix package.json
+
+"scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+},
+
+2. Clone and init altchain:
+        git clone https://github.com/GTFB/altchain.git
+        npm i --legacy-peer-deps
+
+3. Change my github user pusher: 
+
+    git config --global user.name vladislovev
+    git config --global user.email altrpv@academ-x.ru
+
+    git config --global user.name crazyLoveV
+    git config --global user.email vladisverlove@gmail.com
+
