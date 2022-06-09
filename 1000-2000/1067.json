@@ -1,0 +1,23 @@
+{
+  "name": "Fedora #1067",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1067.gif",
+  "dna": "d95295745b242c41c6e997ae1b2109356de9f866",
+  "edition": 1067,
+  "date": 1654502618247,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Fedora"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Common"
+      }
+  ],
+  "compiler": "Vingrig"
+}

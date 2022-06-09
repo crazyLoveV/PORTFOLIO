@@ -1,0 +1,23 @@
+{
+  "name": "Top Hat #1014",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1014.gif",
+  "dna": "99b3a72ebec5f133cb096652c8d66362827318bb",
+  "edition": 1014,
+  "date": 1654502617787,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Top Hat"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+      }
+  ],
+  "compiler": "Vingrig"
+}

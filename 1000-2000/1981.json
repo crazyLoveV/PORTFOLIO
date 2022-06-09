@@ -1,0 +1,59 @@
+{
+  "name": "Stumble upon Rumble #1981",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1981.gif",
+  "dna": "4d72f07eff57c0b3762cc33f11416d8d97f58a75",
+  "edition": 1981,
+  "date": 1654502623577,
+  "attributes": [
+    {
+      "trait_type": "DNA_1",
+      "value": "dna_4"
+    },
+    {
+      "trait_type": "DNA_2",
+      "value": "dna_1"
+    },
+    {
+      "trait_type": "DNA_3",
+      "value": "dna_3"
+    },
+    {
+      "trait_type": "DNA_4",
+      "value": "dna_2"
+    },
+    {
+      "trait_type": "DNA_5",
+      "value": "dna_3"
+    },
+    {
+      "trait_type": "DNA_6",
+      "value": "dna_2"
+    },
+    {
+      "trait_type": "DNA_7",
+      "value": "dna_1"
+    },
+    {
+      "trait_type": "DNA_8",
+      "value": "dna_1"
+    },
+    {
+      "trait_type": "DNA_9",
+      "value": "dna_5"
+    },
+    {
+      "trait_type": "DNA_10",
+      "value": "dna_5"
+    },
+    {
+      "trait_type": "DNA_11",
+      "value": "dna_3"
+    },
+    {
+      "trait_type": "DNA_12",
+      "value": "dna_3"
+    }
+  ],
+  "compiler": "Vingrig"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Karate Student #1025",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1025.gif",
+  "dna": "61e30e5861db08c1375842f71215104b0fe986a0",
+  "edition": 1025,
+  "date": 1654502617869,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Fighter"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Karate Student"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+      }
+  ],
+  "compiler": "Vingrig"
+}

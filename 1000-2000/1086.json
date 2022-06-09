@@ -1,0 +1,23 @@
+{
+  "name": "Rastafari #1086",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1086.gif",
+  "dna": "6061715d01f1541a085674cfc29367492695317e",
+  "edition": 1086,
+  "date": 1654502618344,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Fighter"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Rastafari"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Rare"
+      }
+  ],
+  "compiler": "Vingrig"
+}

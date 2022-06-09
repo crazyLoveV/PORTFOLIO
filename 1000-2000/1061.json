@@ -1,0 +1,23 @@
+{
+  "name": "The Lonely Island #1061",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1061.gif",
+  "dna": "9982b3817f110d9f4ecf94d50ffecb7c4aac217b",
+  "edition": 1061,
+  "date": 1654502618201,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Arena"
+      },
+      {
+      "trait_type": "Item",
+      "value": "The Lonely Island"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+      }
+  ],
+  "compiler": "Vingrig"
+}

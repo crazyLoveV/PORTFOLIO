@@ -1,0 +1,23 @@
+{
+  "name": "Goggles #1021",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1021.gif",
+  "dna": "984ce7a36e436b5f1e6210c6c0155b4314e7c6e8",
+  "edition": 1021,
+  "date": 1654502617835,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Goggles"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Rare"
+      }
+  ],
+  "compiler": "Vingrig"
+}

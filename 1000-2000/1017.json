@@ -1,0 +1,23 @@
+{
+  "name": "Bandana & Durag #1017",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1017.gif",
+  "dna": "fc525cd7100f9e628503f7ae1b8965b1b124abf3",
+  "edition": 1017,
+  "date": 1654502617810,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Bandana & Durag"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Common"
+      }
+  ],
+  "compiler": "Vingrig"
+}

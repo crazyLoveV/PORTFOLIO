@@ -1,0 +1,23 @@
+{
+  "name": "The Forest #1037",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1037.gif",
+  "dna": "690a8d3ef290eda1f61bc0cbc359ddc1effa6b9b",
+  "edition": 1037,
+  "date": 1654502617977,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Arena"
+      },
+      {
+      "trait_type": "Item",
+      "value": "The Forest"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Common"
+      }
+  ],
+  "compiler": "Vingrig"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Native #1041",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1041.gif",
+  "dna": "1958e229398020e924ca09aee5f016c4d3f01050",
+  "edition": 1041,
+  "date": 1654502617995,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Fighter"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Native"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+      }
+  ],
+  "compiler": "Vingrig"
+}

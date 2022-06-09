@@ -1,0 +1,23 @@
+{
+  "name": "Warbonnet #1045",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1045.gif",
+  "dna": "11dc6dd5960e1c22fa0257e35e2f96b37985b30d",
+  "edition": 1045,
+  "date": 1654502618019,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Warbonnet"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Rare"
+      }
+  ],
+  "compiler": "Vingrig"
+}

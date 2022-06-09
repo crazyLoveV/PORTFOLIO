@@ -1,0 +1,23 @@
+{
+  "name": "Kung Fu #1077",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1077.gif",
+  "dna": "439033462e62c075e93e11d12c33e5cf294336cd",
+  "edition": 1077,
+  "date": 1654502618302,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Fighter"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Kung Fu"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Rare"
+      }
+  ],
+  "compiler": "Vingrig"
+}

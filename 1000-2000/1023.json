@@ -1,0 +1,23 @@
+{
+  "name": "Cowboy #1023",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1023.gif",
+  "dna": "199eac251f6d9526b86943a798c588503ea3c0b3",
+  "edition": 1023,
+  "date": 1654502617850,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Cowboy"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Common"
+      }
+  ],
+  "compiler": "Vingrig"
+}

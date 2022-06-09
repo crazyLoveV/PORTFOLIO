@@ -1,0 +1,23 @@
+{
+  "name": "Tracksuit Red #1036",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1036.gif",
+  "dna": "48d7230199697d2fae79ff40dfc05dc4e74121c2",
+  "edition": 1036,
+  "date": 1654502617970,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Fighter"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Tracksuit Red"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Common"
+      }
+  ],
+  "compiler": "Vingrig"
+}
