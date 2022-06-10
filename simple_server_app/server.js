@@ -7,10 +7,14 @@ const app = express()
 app.use(bodyParser.json());
 app.use(cors());
 
+const {router} = require ('./router/router');
+app.use('/', router);
+
+
 const PORT = 3000;
 
 //конфигурация бд
-const connection_DB = mysql.createConnection(
+const connection = mysql.createConnection(
     {
         host: "localhost",
         user: "vladislav",
@@ -22,7 +26,7 @@ const connection_DB = mysql.createConnection(
 
 async function start() { 
     try {
-        connection_DB.connect((err) => {
+         connection.connect((err) => {
             if (err) {
                 return console.error("Ошибка: " + err.message);
               }
@@ -38,6 +42,7 @@ async function start() {
     } catch (e) {
       console.log(e);
     }
-  }
-  
-  start();
+  } 
+start();
+
+module.exports = connection
