@@ -47,3 +47,6 @@ Fix package.json
     git config --global user.name crazyLoveV
     git config --global user.email vladisverlove@gmail.com
 
+4. Work with servers:
+    sudo kill $(sudo lsof -t -i:3000)
+    sudo netstat -lnp

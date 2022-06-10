@@ -6,7 +6,7 @@ const users = new Users()
 const router = Router();
 
 router.get('/getUsersData', users.getUsersData);
-//router.post('/signup', UserController.signup);
+router.post('/addUser', users.addUser);
 
 //router.get('/info', authenticate, UserController.info); // authenticate проверит юзера в бд и обновит токен при вызове функции
 //router.get('/logout', authenticate, UserController.logout);

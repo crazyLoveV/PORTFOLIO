@@ -3,6 +3,15 @@ const express = require ("express");
 const bodyParser = require ('body-parser');
 const cors = require ('cors');
 
+let connection = mysql.createConnection(
+  {
+      host: "localhost",
+      user: "vladislav",
+      database: "studyingBase",
+      password: "vlad2505",
+  }
+);
+
 const app = express()
 app.use(bodyParser.json());
 app.use(cors());
@@ -14,14 +23,7 @@ app.use('/', router);
 const PORT = 3000;
 
 //конфигурация бд
-const connection = mysql.createConnection(
-    {
-        host: "localhost",
-        user: "vladislav",
-        database: "studyingBase",
-        password: "vlad2505",
-    }
-);
+
 
 
 async function start() { 

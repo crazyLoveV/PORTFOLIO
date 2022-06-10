@@ -1,16 +1,20 @@
 const mysql = require('mysql')
-require('../server')
-const connection = require('../server')
-const query = "SELECT * FROM `Users`"
+
+let connection = mysql.createConnection(
+    {
+        host: "localhost",
+        user: "vladislav",
+        database: "studyingBase",
+        password: "vlad2505",
+    }
+);
 
 
 class Users {
 
     getUsersData() {
 
-        console.log(connection);
-
-        connection.query(query, function(err, results, fields) {
+        connection.query("SELECT * FROM `Users`", function(err, results, fields) {
             console.log(err);
             console.log(results); // собственно данные
             console.log(fields); // мета-данные полей 
@@ -18,6 +22,19 @@ class Users {
     
     }
 
+    addUser() {  
+        
+        connection.query("INSERT INTO `Users` (`id`, `name`, `surname`, `phone`) " + 
+    `VALUES (NULL, 'Volodya', 'Putin', '333444')`, (err, results, fields) => {
+        console.log(err);
+        console.log(results); // собственно данные
+        console.log(fields); // мета-данные полей 
+
+    })
+
+    }
+
 }
+
 
 module.exports = Users
