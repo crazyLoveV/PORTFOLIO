@@ -1,5 +1,5 @@
 {
-  "name": "Stumble upon Rumble #1452",
+  "name": "Tracksuit Blue #1452",
   "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
   "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1452.gif",
   "dna": "94c7de2d3b5c754e2108a6561357be2c3347bc7a",
@@ -7,53 +7,17 @@
   "date": 1654502620574,
   "attributes": [
     {
-      "trait_type": "DNA_1",
-      "value": "dna_2"
-    },
-    {
-      "trait_type": "DNA_2",
-      "value": "dna_3"
-    },
-    {
-      "trait_type": "DNA_3",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_4",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_5",
-      "value": "dna_3"
-    },
-    {
-      "trait_type": "DNA_6",
-      "value": "dna_2"
-    },
-    {
-      "trait_type": "DNA_7",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_8",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_9",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_10",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_11",
-      "value": "dna_3"
-    },
-    {
-      "trait_type": "DNA_12",
-      "value": "dna_1"
-    }
+      "trait_type": "Type",
+      "value": "Fighter"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Tracksuit Blue"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Common"
+      }
   ],
   "compiler": "Vingrig"
 }
