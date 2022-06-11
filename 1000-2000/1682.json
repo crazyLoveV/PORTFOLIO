@@ -1,59 +1,24 @@
 {
-  "name": "Stumble upon Rumble #1682",
+  "name": "Trapper Hat#1682",
   "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
   "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/1682.gif",
   "dna": "28b320ed03baa3b6c333d577eab97c24d891773d",
   "edition": 1682,
   "date": 1654502621556,
   "attributes": [
-    {
-      "trait_type": "DNA_1",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_2",
-      "value": "dna_3"
-    },
-    {
-      "trait_type": "DNA_3",
-      "value": "dna_3"
-    },
-    {
-      "trait_type": "DNA_4",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_5",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_6",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_7",
-      "value": "dna_4"
-    },
-    {
-      "trait_type": "DNA_8",
-      "value": "dna_4"
-    },
-    {
-      "trait_type": "DNA_9",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_10",
-      "value": "dna_2"
-    },
-    {
-      "trait_type": "DNA_11",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_12",
-      "value": "dna_2"
-    }
+    
+{
+  "trait_type": "Type",
+  "value": "Hat"
+  },
+  {
+  "trait_type": "Item",
+  "value": "Trapper Hat"
+  },
+  {
+  "trait_type": "Rarity",
+  "value": "Uncommon"
+  }
   ],
   "compiler": "Vingrig"
 }
