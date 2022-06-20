@@ -1,59 +1,23 @@
 {
-  "name": "Stumble upon Rumble #3580",
+  "name": "Kawaii #3579",
   "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
-  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/3580.gif",
-  "dna": "ae47c06bc9c7f504960a929b64f1a3c406eaebd1",
-  "edition": 3580,
-  "date": 1654502634191,
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/3579.gif",
+  "dna": "9560ec48ef69f021c987a79308cd96a8b2896e7b",
+  "edition": 3579,
+  "date": 1654502634186,
   "attributes": [
     {
-      "trait_type": "DNA_1",
-      "value": "dna_2"
-    },
-    {
-      "trait_type": "DNA_2",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_3",
-      "value": "dna_3"
-    },
-    {
-      "trait_type": "DNA_4",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_5",
-      "value": "dna_2"
-    },
-    {
-      "trait_type": "DNA_6",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_7",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_8",
-      "value": "dna_4"
-    },
-    {
-      "trait_type": "DNA_9",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_10",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_11",
-      "value": "dna_2"
-    },
-    {
-      "trait_type": "DNA_12",
-      "value": "dna_3"
-    }
+      "trait_type": "Type",
+      "value": "Fighter"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Kawaii"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Common"
+      }
   ],
   "compiler": "Vingrig"
 }
