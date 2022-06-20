@@ -1,0 +1,23 @@
+{
+  "name": "Paper Hat #3010",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/3010.gif",
+  "dna": "b4a0e91957a4de47cdd7afb86bf05e8df7f80cd6",
+  "edition": 3010,
+  "date": 1654502630645,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Paper Hat"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Common"
+      }
+  ],
+  "compiler": "Vingrig"
+}
