@@ -1,5 +1,5 @@
 {
-  "name": "Stumble upon Rumble #3504",
+  "name": "Bear Fur #3504",
   "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
   "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/3504.gif",
   "dna": "42adbdb0ee544ed961e4222e7fdb4dd3ce512e0c",
@@ -7,53 +7,17 @@
   "date": 1654502633846,
   "attributes": [
     {
-      "trait_type": "DNA_1",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_2",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_3",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_4",
-      "value": "dna_2"
-    },
-    {
-      "trait_type": "DNA_5",
-      "value": "dna_2"
-    },
-    {
-      "trait_type": "DNA_6",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_7",
-      "value": "dna_3"
-    },
-    {
-      "trait_type": "DNA_8",
-      "value": "dna_3"
-    },
-    {
-      "trait_type": "DNA_9",
-      "value": "dna_2"
-    },
-    {
-      "trait_type": "DNA_10",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_11",
-      "value": "dna_3"
-    },
-    {
-      "trait_type": "DNA_12",
-      "value": "dna_5"
-    }
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Bear Fur"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Rare"
+      }
   ],
   "compiler": "Vingrig"
 }
