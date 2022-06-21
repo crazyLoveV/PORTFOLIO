@@ -1,0 +1,23 @@
+{
+  "name": "Bear Fur #7002",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/7002.gif",
+  "dna": "983b971413ad82468db390ae07ff35e349bab62d",
+  "edition": 7002,
+  "date": 1654502657207,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Bear Fur"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Rare"
+      }
+  ],
+  "compiler": "Vingrig"
+}

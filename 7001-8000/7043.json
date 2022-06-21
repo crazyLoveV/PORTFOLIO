@@ -1,0 +1,23 @@
+{
+  "name": "Desert Traveller #7043",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/7043.gif",
+  "dna": "9fb13642bd7cb231bd950a6410fa8974db6287a8",
+  "edition": 7043,
+  "date": 1654502657444,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Desert Traveller"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Common"
+      }
+  ],
+  "compiler": "Vingrig"
+}

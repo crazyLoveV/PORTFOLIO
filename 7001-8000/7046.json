@@ -1,0 +1,23 @@
+{
+  "name": "Shuriken #7046",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/7046.gif",
+  "dna": "ef30ac436788dafcc0c9c7df495987c190f454be",
+  "edition": 7046,
+  "date": 1654502657470,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Shuriken"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Common"
+      }
+  ],
+  "compiler": "Vingrig"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Ushanka #7024",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/7024.gif",
+  "dna": "e78650fab838795af9c9544623b77e4cc060d0f4",
+  "edition": 7024,
+  "date": 1654502657325,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Ushanka"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+      }
+  ],
+  "compiler": "Vingrig"
+}

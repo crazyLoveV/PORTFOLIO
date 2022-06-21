@@ -1,0 +1,23 @@
+{
+  "name": "Referee's Cap #7048",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/7048.gif",
+  "dna": "086e97e42b28910cc3ac8374c4543e67c3abad6e",
+  "edition": 7048,
+  "date": 1654502657476,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hat"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Referee's Cap"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+      }
+  ],
+  "compiler": "Vingrig"
+}

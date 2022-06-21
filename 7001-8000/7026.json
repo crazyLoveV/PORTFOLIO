@@ -1,0 +1,23 @@
+{
+  "name": "Fantom of the Opera #7026",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/7026.gif",
+  "dna": "0fe42b9b6cc8cd6558c19fed7f10c389435922c8",
+  "edition": 7026,
+  "date": 1654502657331,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Fighter"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Fantom of the Opera"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+      }
+  ],
+  "compiler": "Vingrig"
+}

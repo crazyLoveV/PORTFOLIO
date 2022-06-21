@@ -1,0 +1,24 @@
+{
+  "name": "Cat Ears #7014",
+  "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
+  "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/7014.gif",
+  "dna": "f1d076c4cdc80c93cedc7f81b13b601420c974e8",
+  "edition": 7014,
+  "date": 1654502657276,
+  "attributes": [
+    
+{
+  "trait_type": "Type",
+  "value": "Hat"
+  },
+  {
+  "trait_type": "Item",
+  "value": "Cat Ears"
+  },
+  {
+  "trait_type": "Rarity",
+  "value": "Common"
+  }
+  ],
+  "compiler": "Vingrig"
+}
