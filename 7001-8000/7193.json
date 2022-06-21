@@ -1,5 +1,5 @@
 {
-  "name": "Stumble upon Rumble #7193",
+  "name": "Underground #7193",
   "description": "This NFT can be used to customize your character in the Stumble upon Rumble game.",
   "image": "ipfs://QmQmqq1HbVKeHa8rUdNQHwZhB4YfLJZcaoVLMcqzC7j6v5/7193.gif",
   "dna": "413b127328305938423901ea94d68d51bdc00f57",
@@ -7,53 +7,17 @@
   "date": 1654502658445,
   "attributes": [
     {
-      "trait_type": "DNA_1",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_2",
-      "value": "dna_4"
-    },
-    {
-      "trait_type": "DNA_3",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_4",
-      "value": "dna_3"
-    },
-    {
-      "trait_type": "DNA_5",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_6",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_7",
-      "value": "dna_1"
-    },
-    {
-      "trait_type": "DNA_8",
-      "value": "dna_4"
-    },
-    {
-      "trait_type": "DNA_9",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_10",
-      "value": "dna_3"
-    },
-    {
-      "trait_type": "DNA_11",
-      "value": "dna_5"
-    },
-    {
-      "trait_type": "DNA_12",
-      "value": "dna_1"
-    }
+      "trait_type": "Type",
+      "value": "Fighter"
+      },
+      {
+      "trait_type": "Item",
+      "value": "Underground"
+      },
+      {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+      }
   ],
   "compiler": "Vingrig"
 }
